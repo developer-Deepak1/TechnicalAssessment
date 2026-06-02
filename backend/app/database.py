@@ -10,7 +10,7 @@ from sqlalchemy.orm import declarative_base, sessionmaker
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql+psycopg://deepak:ZRyCaLoAMP6ZAiwWQOHuYXIuCKXP1spC@dpg-d8fhekmq1p3s73ep2ib0-a.virginia-postgres.render.com/inventory_db_02cw",
+    "postgresql+psycopg://admin:changeme_secure_password@localhost:5432/inventory_db",
 )
 
 # Handle Render-style postgres:// URLs (SQLAlchemy requires postgresql+psycopg://)

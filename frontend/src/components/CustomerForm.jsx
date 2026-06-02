@@ -14,7 +14,7 @@ export default function CustomerForm({ onSubmit, onClose }) {
     const errs = {};
     if (!fullName.trim()) errs.fullName = "Full name is required.";
     if (!email.trim()) errs.email = "Email is required.";
-    else if (!/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test(email))
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
       errs.email = "Enter a valid email address.";
     if (!phone.trim()) errs.phone = "Phone number is required.";
     return errs;
