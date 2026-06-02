@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # InvenTrack — Inventory & Order Management System
 
 A production-ready, fully containerized full-stack application for managing products, customers, and orders with real-time inventory tracking.
@@ -154,3 +155,6 @@ See [DEPLOYMENT.md](DEPLOYMENT.md) for step-by-step deployment instructions.
 ## License
 
 MIT
+=======
+# TechnicalAssessment
+>>>>>>> b7fb799f509248e248ee82ec7627fff0e3287c69
